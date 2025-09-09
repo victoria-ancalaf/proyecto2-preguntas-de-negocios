@@ -13,9 +13,16 @@ A continuación, se presentan los resultados clave, las visualizaciones interact
 
 ## 🔧 Herramientas Utilizadas
 
-* BigQuery (SQL): gestión de bases de datos.
+* BigQuery (Google): gestión de bases de datos.
 * Looker Studio (Google): visualización de datos.
 * Google Colab:  creación de histogramas con Python.
+
+---
+
+## 🗒️ Lenguajes
+
+* SQL: para trabajar con datos en BigQuery.
+* Python: para análisis estadísticos en Google Colab.
 
 ---
 
