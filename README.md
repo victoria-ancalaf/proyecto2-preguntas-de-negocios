@@ -31,16 +31,18 @@ A continuación, se presentan los resultados clave, las visualizaciones interact
 A lo largo del proyecto, nos enfocamos en responder las siguientes preguntas de negocio. Para cada una, se presenta un breve resumen de las conclusiones obtenidas.
 
 1.  **¿Estar en más listas de reproducción se relaciona con mayor cantidad de reproducciones?**
-    * **Conclusión:** El análisis reveló que existe una [relación, ej. "correlación positiva fuerte"] entre ambas variables. Esto sugiere que [hallazgo clave, ej. "un aumento en la inversión en marketing se asocia con un crecimiento en las ventas"].
+    * **Conclusión:** Existe una correlación positiva entre el número de playlists en las que se encuentra una canción y sus reproducciones. Generalmente, cuanto más popular y más veces se incluye una canción en listas, más reproducciones acumula.
 
 2.  **¿Los artistas con más canciones disponibles tienen más reproducciones?**
-    * **Conclusión:** Se identificaron [número] factores principales, siendo [Factor A] y [Factor B] los más significativos. Los clientes que [comportamiento específico] tienen una [probabilidad más alta/baja] de abandonar.
+    * **Conclusión:** El análisis reveló que existe una correlación positiva entre el número de canciones de un artista y sus reproducciones totales. Esto significa que, en general, cuantas más canciones tiene un artista, más reproducciones acumula.
 
 ---
 
 ## 📊 Resultados Principales
 * Se analizaron **947 canciones** de más de **600 artistas**, sumando casi 490 mil millones de streams en 2023.
 * Los artistas superestrellas como **Taylor Swift** concentran la mayoría de streams globales.
+* Spotify se posiciona como la plataforma con mayor cantidad de canciones incluidas en playlists.
+* Blinding Lights fue la canción más escuchada en Spotify el año 2023.
 
 ---
 
@@ -56,7 +58,7 @@ Todos los hallazgos y análisis se han consolidado en un dashboard interactivo d
 
 Para llegar a estas conclusiones, se siguió un proceso riguroso:
 
-* **Extracción y Carga:** Se extrajeron los datos de [fuente de datos, ej. Google Analytics, BigQuery].
+* **Carga de tablas:** Se creó un espacio de trabajo en BigQuery.
 * **Limpieza y Transformación:** Se utilizaron consultas **SQL en BigQuery** para limpiar los datos, manejar valores faltantes y transformarlos en un formato apto para el análisis.
 * **Análisis Exploratorio:** Se realizaron análisis exploratorios y estadísticos para identificar relaciones y tendencias.
 * **Visualización:** Los datos procesados se conectaron a Looker Studio para crear el dashboard final.
