@@ -50,7 +50,7 @@ A lo largo del proyecto, nos enfocamos en responder las siguientes preguntas de 
 
 Todos los hallazgos y análisis se han consolidado en un dashboard interactivo de **Looker Studio**.
 
-🔗 **[Dashboard de Looker Studio](LINK_A_TU_DASHBOARD)**
+🔗 **[Dashboard de Looker Studio](https://lookerstudio.google.com/reporting/00564f41-ee60-4db8-9b35-ca77f5e701a8)**
 
 ---
 
